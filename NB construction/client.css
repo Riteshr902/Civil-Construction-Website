@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    color: rgb(255, 255, 255); 
+     text-decoration: none; 
+     background-color: #383838; 
+}
+
+nav{
+    box-shadow: 1px 1px 2px #444;
+}
+html{
+    /* font-size: 100%; */
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    
+}
+
+nav .navbar-brand{
+    /* color: var(--bs-warning)!important; */
+    color: #282828;
+    font-size: 40px;
+    font-style: italic;text-shadow: 2rem;
+    /* font-family: cursive */
+}
+
+.hover:hover{
+    /* color: black; */
+    border: 1px solid rgb(23, 23, 23);
+    border-radius: 10px;
+    padding: 1px 2px 1px 2px;
+    background-color: rgb(255, 174, 0); 
+    transition: 0.2s ease;
+}
+.customer-review{
+    /* margin-top: 30px; */
+    padding: 3rem 5%;
+    background-color: #f2e1b3;
+    height: auto;
+    
+}
+.customer-review h1{
+    font-style: normal;
+    color: rgb(37, 37, 37);
+    font-size: 39px;
+    text-align: center;
+    padding: 1rem 0;
+    font-weight: 750;
+    text-shadow: #222;
+    margin-bottom: 30px;
+}
+.customer-review h1 span{
+    color: #f49d1a;
+    font-size: 38px;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: #222;
+    padding: 1rem 0;
+    text-transform: capitalize;
+}
+
+.main-review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* background-color: yellow; */
+}
+.inner-review{
+    color: #000;
+    flex: 1 1 300px;
+    padding: 3rem 3rem;
+    position: relative;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.inner-review:hover{
+    background:#F49D1A;
+    color: rgb(255, 255, 255);
+    
+}
+.inner-review:hover i{
+    color: #f1eaea;
+}
+.inner-review p{
+    color: #0b0b0b;
+    font-size: 15px;
+    padding: 1rem 2rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.inner-review img{
+    width: 100px;
+    height: 100px;
+}
+.inner-review i{
+    color: #F49D1A;
+    position: absolute;
+    font-size: 3rem;
+    left: 1rem;
+    top: 1rem;
+}
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background-color: #4a4a4a;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+footer .container{
+    margin-top: 80px;
+     display: flex;
+     justify-content:space-between;
+     flex-wrap:wrap;
+     flex-direction: row;
+}
+footer .container .sec{
+    margin-right: 30px;
+}
+footer .container .sec.abtus{
+    width: 40%;
+}
+footer .container h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+footer .container h2:before{
+    content: '';
+    position:absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f5b916;
+}
+footer  p{
+    color: #999;
+}
+.symbol{
+    margin-top: 20px;
+    display: flex;
+}
+.symbol li{
+    list-style: none;
+}
+.symbol li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.symbol li a:hover{
+    background: #f5b916;
+}
+.symbol li a .fa{
+    color: #fff;
+    font-size: 20px;
+}
+.quicklinks{
+    position: relative;
+    width: 25%;
+}
+.quicklinks ul li{
+    list-style: none;
+}
+
+.quicklinks ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.quicklinks ul li a:hover{
+    color: rgba(255, 200, 0, 0.937);
+}
+.contacts{
+    width:calc(35%-60px);
+    margin-right: 0 !important;
+}
+.contacts .info{
+    position: relative;
+}
+.contacts .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+.contacts .info li span:nth-child(1){
+    color: rgba(255, 255, 255, 0.841);
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contacts .info li span{
+    color: #999;
+}
+.contacts .info li a{
+    color: #999;
+    text-decoration: none;
+}
+.contacts .info li a:hover{
+    color: rgb(255, 204, 0);
+}

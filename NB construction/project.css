@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    color: rgb(255, 255, 255); 
+     text-decoration: none; 
+     background-color: #383838; 
+}
+
+nav{
+    box-shadow: 1px 1px 2px #444;
+}
+html{
+    /* font-size: 100%; */
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    
+}
+
+nav .navbar-brand{
+    /* color: var(--bs-warning)!important; */
+    color: #282828;
+    font-size: 40px;
+    font-style: italic;text-shadow: 2rem;
+    /* font-family: cursive */
+}
+
+.hover:hover{
+    /* color: black; */
+    color: #282828;
+    border: 1px solid rgb(23, 23, 23);
+    border-radius: 10px;
+    padding: 1px 2px 1px 2px;
+    background-color: rgb(255, 174, 0); 
+    transition: 0.2s ease;
+}
+.our-gallery{
+    padding-top: 30px;
+    /* flex:1rem 5%; */
+    padding-bottom: 50px;
+    background-color:rgba(247, 241, 241, 0.772);
+}
+.our-gallery h1{
+    
+    font-style: normal;
+    color: rgb(37, 37, 37);
+    font-size: 45px;
+    text-align: center;
+    padding: 2rem 0;
+    font-weight: 750;
+    text-shadow: #222;
+    margin-bottom: 30px;
+}
+.our-gallery h1 span{
+    color: #ffcb0f;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: #222;
+    padding: 1rem 0;
+    text-transform: capitalize;
+}
+.main-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    /* cursor: pointer; */
+}
+.inner-gallery h3{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #ffcc00;
+    cursor: pointer;
+}
+.inner-gallery h3:hover{
+    color: rgb(54, 54, 54);
+}
+.inner-gallery i{
+    /* margin-right: 350px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: rgb(44, 44, 45);
+    padding-bottom: 20px;
+}
+/* .inner-gallery p{
+    text-align: center;
+    font-size: 15px;
+    margin:auto;
+    color: rgb(76, 76, 171);
+    cursor: pointer;
+    padding-bottom: 20px;
+} */
+
+.inner-gallery img{
+    transition: 1.5sec;
+    width: 100%;
+    height: 250px;
+    cursor: pointer;
+    
+}
+.inner-gallery img:hover{
+    /* transform: translateY(30px); */
+ transform: translate3d(5px,10px, -20px);
+ /* border-color: red; */
+ /* border:1.5px solid rgb(254, 232, 31); */
+ /* border-color: brown; */
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background-color: #4a4a4a;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+footer .container{
+    margin-top: 80px;
+     display: flex;
+     justify-content:space-between;
+     flex-wrap:wrap;
+     flex-direction: row;
+}
+footer .container .sec{
+    margin-right: 30px;
+}
+footer .container .sec.abtus{
+    width: 40%;
+}
+footer .container h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+footer .container h2:before{
+    content: '';
+    position:absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f5b916;
+}
+footer  p{
+    color: #999;
+}
+.symbol{
+    margin-top: 20px;
+    display: flex;
+}
+.symbol li{
+    list-style: none;
+}
+.symbol li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.symbol li a:hover{
+    background: #f5b916;
+}
+.symbol li a .fa{
+    color: #fff;
+    font-size: 20px;
+}
+.quicklinks{
+    position: relative;
+    width: 25%;
+}
+.quicklinks ul li{
+    list-style: none;
+}
+
+.quicklinks ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.quicklinks ul li a:hover{
+    color: rgba(255, 200, 0, 0.937);
+}
+.contacts{
+    width:calc(35%-60px);
+    margin-right: 0 !important;
+}
+.contacts .info{
+    position: relative;
+}
+.contacts .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+.contacts .info li span:nth-child(1){
+    color: rgba(255, 255, 255, 0.841);
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contacts .info li span{
+    color: #999;
+}
+.contacts .info li a{
+    color: #999;
+    text-decoration: none;
+}
+.contacts .info li a:hover{
+    color: rgb(255, 204, 0);
+}
